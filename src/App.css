@@ -41,3 +41,7 @@
     xl:text-[22px]   xl:leading-[35px]
 }
 
+
+.hoverAnimation{
+    @apply transition ease-linear  scale-100 hover:scale-95 cursor-pointer
+}

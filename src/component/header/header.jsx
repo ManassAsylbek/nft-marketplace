@@ -13,10 +13,10 @@ const Header = () => {
             <div>
                 <List className="w-6 xl:hidden"/>
                 <ul className="hidden xl:flex items-center font-sans font-bold gap-x-2">
-                    <li className="px-[20px]">Marketplace</li>
-                    <li className="px-[20px]">Rankings</li>
-                    <li className="px-[20px]">Connect a wallet</li>
-                    <li className="flex items-center gap-x-3 py-[18px] px-[30px] rounded-[24px] bg-purple">
+                    <li className="px-[20px] hoverAnimation">Marketplace</li>
+                    <li className="px-[20px] hoverAnimation">Rankings</li>
+                    <li className="px-[20px] hoverAnimation">Connect a wallet</li>
+                    <li className="flex items-center gap-x-3 py-[18px] px-[30px] rounded-[24px] bg-purple hoverAnimation">
                         <User className="w-5 h-5"/>Sign Up
                     </li>
                 </ul>

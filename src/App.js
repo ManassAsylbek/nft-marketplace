@@ -3,6 +3,7 @@ import Header from "./component/header/header";
 import HeroSection from "./component/heroSection/HeroSection";
 import TrendCollection from "./component/trendCollection/TrendCollection";
 import TopArtist from "./component/TopArtist/TopArtist";
+import BrowseCategories from "./component/BrowseCategories/BrowseCategories";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <HeroSection/>
             <TrendCollection/>
             <TopArtist/>
+            <BrowseCategories/>
         </div>
     );
 }

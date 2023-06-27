@@ -4,7 +4,7 @@ import avatar1 from "../../assets/avatar/Avatar 1.svg";
 const AvatarCard = ({avatar,name,price,number}) => {
     return (
         <div className="flex gap-[20px] items-center p-[20px] bg-gray-dark rounded-[20px] relative
-                        xl:flex-col">
+                        xl:flex-col hoverAnimation">
             <div className="z-10 w-[30px] h-[30px] bg-black rounded-[50%] absolute top-[13px] left-[13px]
                      flex items-center justify-center font-mono text-gray text-base">
                 {number}

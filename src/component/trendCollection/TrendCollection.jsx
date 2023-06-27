@@ -20,11 +20,11 @@ const TrendCollection = () => {
             </div>
             <div className=" flex gap-[30px]">
                 <div className=" flex flex-col gap-[15px]">
-                    <img src={animal} className="w-[330px]" alt=""/>
+                    <img src={animal} className="w-[330px] hoverAnimation" alt=""/>
                     <div className="flex gap-[15px]">
-                        <img src={animal2} alt=""/>
-                        <img src={animal3} alt=""/>
-                        <div className="w-[100px] bg-purple rounded-[20px] flex justify-center items-center
+                        <img src={animal2} className="hoverAnimation" alt=""/>
+                        <img src={animal3} className="hoverAnimation" alt=""/>
+                        <div className="w-[100px] hoverAnimation bg-purple rounded-[20px] flex justify-center items-center
                     text-[22px] leading-[35.2px] text-white font-bold font-mono">1025+</div>
                     </div>
                     <div className="text font-bold">DSGN Animals</div>
@@ -34,11 +34,11 @@ const TrendCollection = () => {
                     </div>
                 </div>
                 <div className=" md:flex flex-col gap-[15px] hidden">
-                    <img src={grib} className="w-[330px]" alt=""/>
+                    <img src={grib} className="w-[330px] hoverAnimation" alt=""/>
                     <div className="flex gap-[15px]">
-                        <img src={grib2} alt=""/>
-                        <img src={grib3} alt=""/>
-                        <div className="w-[100px] bg-purple rounded-[20px] flex justify-center items-center
+                        <img src={grib2} className="hoverAnimation" alt=""/>
+                        <img src={grib3} className="hoverAnimation" alt=""/>
+                        <div className="w-[100px] hoverAnimation bg-purple rounded-[20px] flex justify-center items-center
                     text-[22px] leading-[35.2px] text-white font-bold font-mono">1025+</div>
                     </div>
                     <div className="text font-bold">Magic Mushrooms</div>
@@ -48,11 +48,11 @@ const TrendCollection = () => {
                     </div>
                 </div>
                 <div className=" xl:flex flex-col gap-[15px] hidden">
-                    <img src={robot} className="w-[330px]" alt=""/>
+                    <img src={robot} className="w-[330px] hoverAnimation" alt=""/>
                     <div className="flex gap-[15px]">
-                        <img src={robot2} alt=""/>
-                        <img src={robot3} alt=""/>
-                        <div className="w-[100px] bg-purple rounded-[20px] flex justify-center items-center
+                        <img src={robot2} className="hoverAnimation" alt=""/>
+                        <img src={robot3} className="hoverAnimation" alt=""/>
+                        <div className="w-[100px] hoverAnimation bg-purple rounded-[20px] flex justify-center items-center
                     text-[22px] leading-[35.2px] text-white font-bold font-mono">1025+</div>
                     </div>
                     <div className="text font-bold">Disco Machines</div>
