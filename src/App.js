@@ -8,6 +8,7 @@ import DiscoverMore from "./component/DiscoverMoreNft/DiscoverMore";
 import Mushroom from "./component/Mushroom/Mushroom";
 import Works from "./component/works/Works";
 import Subscribe from "./component/SubscribeWidget/Subscribe";
+import Footer from "./assets/Footer/Footer";
 
 function App() {
     return (
@@ -28,6 +29,9 @@ function App() {
             <div className="bg-black">
                 <Works/>
                 <Subscribe/>
+            </div>
+            <div className="bg-gray-dark">
+                <Footer/>
             </div>
 
         </>

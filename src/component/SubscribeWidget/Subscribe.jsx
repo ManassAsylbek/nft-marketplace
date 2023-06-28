@@ -29,7 +29,6 @@ const Subscribe = () => {
                                 " justify-center items-center gap-x-[10px] "}>
                             <Mail className="w-[22px] fill-white"/> Subscribe</CustomButton>
                     </div>
-
                 </div>
             </div>
         </div>

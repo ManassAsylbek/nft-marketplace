@@ -36,6 +36,11 @@
     margin: 0 auto;
 }
 
+.containerFooter {
+    @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]  text-white;
+    margin: 0 auto;
+}
+
 .containerAstro {
     @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]
     text-white md:pb-[80px] md:pt-[40px];
