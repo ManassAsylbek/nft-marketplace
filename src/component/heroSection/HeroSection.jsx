@@ -7,7 +7,7 @@ import CustomButton from "../button/button";
 
 const HeroSection = () => {
     return (
-        <div className="container py-[40px]  text-white md:py-[80px]  flex flex-col md:flex-row justify-center gap-[30px]">
+        <div className="container py-[40px]   text-white md:py-[80px]  flex flex-col md:flex-row justify-center gap-[30px]">
             <div className="w-[315px] md:w-[330px] xl:w-[510px]">
                 <h1 className="title">Discover Digital Art & Collect
                     NFTs</h1>

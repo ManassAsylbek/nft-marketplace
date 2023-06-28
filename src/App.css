@@ -25,7 +25,10 @@
     @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]  text-white md:py-[80px];
     margin: 0 auto;
 }
-
+.containerMushroom{
+    @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px]  text-white ;
+    margin: 0 auto;
+}
 .title{
     @apply font-sans font-bold text-white text-[28px] pb-[11px] leading-[39px]
     md:text-[38px] md:pb-[15px] md:leading-[45px]
@@ -44,4 +47,8 @@
 
 .hoverAnimation{
     @apply transition ease-linear  scale-100 hover:scale-95 cursor-pointer
+}
+
+.bgImage{
+    background: linear-gradient(179deg, rgba(162.00005114078522, 89.00000989437103, 255, 0) 0%, rgb(162.00000554323196, 89.00000229477882, 255) 100%);
 }
