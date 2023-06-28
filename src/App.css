@@ -21,15 +21,28 @@
 }*/
 
 
-.container{
+.container {
     @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]  text-white md:py-[80px];
     margin: 0 auto;
 }
-.containerMushroom{
+
+.containerMushroom {
     @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px]  text-white ;
     margin: 0 auto;
 }
-.title{
+
+.containerWork {
+    @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]  text-white xl:py-[80px];
+    margin: 0 auto;
+}
+
+.containerAstro {
+    @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]
+    text-white md:pb-[80px] md:pt-[40px];
+    margin: 0 auto;
+}
+
+.title {
     @apply font-sans font-bold text-white text-[28px] pb-[11px] leading-[39px]
     md:text-[38px] md:pb-[15px] md:leading-[45px]
     xl:text-[67px] xl:pb-[20px] xl:leading-[73px];
@@ -39,16 +52,17 @@
     @apply font-sans font-bold text-white text-[28px]  leading-[39.2px]
     xl:text-[38px]  xl:leading-[45.6px]
 }
-.text{
+
+.text {
     @apply font-sans  text-[16px] leading-[22.4px]
     xl:text-[22px]   xl:leading-[35px]
 }
 
 
-.hoverAnimation{
+.hoverAnimation {
     @apply transition ease-linear  scale-100 hover:scale-95 cursor-pointer
 }
 
-.bgImage{
+.bgImage {
     background: linear-gradient(179deg, rgba(162.00005114078522, 89.00000989437103, 255, 0) 0%, rgb(162.00000554323196, 89.00000229477882, 255) 100%);
 }

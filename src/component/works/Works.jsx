@@ -8,7 +8,7 @@ import WorksCard from "./WorksCard";
 
 const Works = () => {
     return (
-        <div className="container flex flex-col gap-[40px] xl:gap-[60px]">
+        <div className="containerWork flex flex-col gap-[40px] xl:gap-[60px]">
             <div className="flex gap-[100px] items-end justify-between">
                 <div className="grid gap-[10px]">
                     <h3 className="secondTitle">How It Works</h3>

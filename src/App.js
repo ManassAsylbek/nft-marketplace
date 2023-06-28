@@ -7,6 +7,7 @@ import BrowseCategories from "./component/BrowseCategories/BrowseCategories";
 import DiscoverMore from "./component/DiscoverMoreNft/DiscoverMore";
 import Mushroom from "./component/Mushroom/Mushroom";
 import Works from "./component/works/Works";
+import Subscribe from "./component/SubscribeWidget/Subscribe";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
             </div>
             <div className="bg-black">
                 <Works/>
+                <Subscribe/>
             </div>
 
         </>
