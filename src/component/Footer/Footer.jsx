@@ -1,11 +1,10 @@
 import React from 'react';
-import {ReactComponent as Logo} from "../icon/Storefront.svg";
-import {ReactComponent as DiscordLogo} from "../icon/DiscordLogo.svg";
-import {ReactComponent as YoutubeLogo} from "../icon/YoutubeLogo.svg";
-import {ReactComponent as TwitterLogo} from "../icon/TwitterLogo.svg";
-import {ReactComponent as InstagramLogo} from "../icon/InstagramLogo.svg";
-import CustomButton from "../../component/button/button";
-import {ReactComponent as Mail} from "../icon/EnvelopeSimple.svg";
+import {ReactComponent as Logo} from "../../assets/icon/Storefront.svg";
+import {ReactComponent as DiscordLogo} from "../../assets/icon/DiscordLogo.svg";
+import {ReactComponent as YoutubeLogo} from "../../assets/icon/YoutubeLogo.svg";
+import {ReactComponent as TwitterLogo} from "../../assets/icon/TwitterLogo.svg";
+import {ReactComponent as InstagramLogo} from "../../assets/icon/InstagramLogo.svg";
+import CustomButton from "../button/button";
 
 
 const Footer = () => {
@@ -27,7 +26,6 @@ const Footer = () => {
                             <YoutubeLogo className="w-[32px] fill-gray"/>
                             <TwitterLogo className="w-[32px]"/>
                             <InstagramLogo className="w-[32px] fill-gray"/>
-
                         </div>
                     </div>
 
@@ -51,7 +49,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-t-2 border-gray pt-[20px] text-[#cccccc]">Ⓒ NFT Market. Use this template freely.</div>
+            <div className="border-t border-gray pt-[20px] text-[#cccccc]">Ⓒ NFT Market. Use this template freely.</div>
         </div>
     );
 };

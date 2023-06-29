@@ -1,10 +1,13 @@
 import React from 'react';
 import NFTImg from "../../assets/img/Image Placeholder.svg";
 import avatar from "../../assets/avatar/Avatar14.svg";
+import {useNavigate} from "react-router-dom";
 
 const DiscoverCard = () => {
+    const navigate = useNavigate()
     return (
-        <div className="hoverAnimation ">
+        <div className="hoverAnimation rounded-[20px] overflow-hidden"
+             onClick={()=>navigate("/nft-page")}>
             <img src={NFTImg} className="w-[100%]" alt=""/>
             <div className="p-[20px] bg-gray-dark rounded-b-[20px]">
                 <div className="font-sans text-[22px] font-bold leading-[31px] pb-[10px]">

@@ -3,6 +3,7 @@ import Main from "../Pages/Main/Main";
 import CreateAccount from "../Pages/CreateAccount/CreateAccount";
 import ConnectWallet from "../Pages/ConnectWallet/ConnectWallet";
 import ArtistPage from "../Pages/ArtistPage/ArtistPage";
+import NftPage from "../Pages/NftPage/NftPage";
 
 
 
@@ -23,6 +24,10 @@ const pagesData = [
         path: "/artist-page",
         title: "ArtistPage",
         element: <ArtistPage/>
+    },{
+        path: "/nft-page",
+        title: "NftPage",
+        element: <NftPage/>
     },
 ];
 

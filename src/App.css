@@ -76,3 +76,10 @@
 .marginCenter{
     margin: 0 auto;
 }
+
+.selectButton{
+    @apply text-white border-b-[3px] border-gray w-full flex items-center justify-center h-[60px] gap-[16px]
+}
+.unselectButton {
+    @apply  text-gray flex items-center justify-center gap-[16px]
+}

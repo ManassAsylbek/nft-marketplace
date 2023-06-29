@@ -20,7 +20,7 @@ const Header = () => {
                     <li className="px-[20px] hoverAnimation"  onClick={()=>navigate("/connect-a-wallet")}>Connect a wallet</li>
                     <li className="flex items-center gap-x-3 py-[18px] px-[30px] rounded-[24px] bg-purple hoverAnimation"
                     onClick={()=>navigate("/create-account")}>
-                        <User className="w-5 h-5"/>Sign Up
+                        <User className="w-5 h-5 fill-white"/>Sign Up
                     </li>
                 </ul>
             </div>

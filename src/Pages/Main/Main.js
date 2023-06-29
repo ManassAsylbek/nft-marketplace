@@ -8,7 +8,7 @@ import DiscoverMore from "../../component/DiscoverMoreNft/DiscoverMore";
 import Mushroom from "../../component/Mushroom/Mushroom";
 import Works from "../../component/works/Works";
 import Subscribe from "../../component/SubscribeWidget/Subscribe";
-import Footer from "../../assets/Footer/Footer";
+import Footer from "../../component/Footer/Footer";
 
 const Main = () => {
     return (
