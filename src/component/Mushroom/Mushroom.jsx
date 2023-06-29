@@ -42,7 +42,7 @@ const Mushroom = () => {
                     <span>AnimeKid</span>
                 </div>
                 <div className=" font-sans font-bold text-white text-[38px]  leading-[45.6px] xl:text-[51px]
-                 xl:leading-[56.1pxpx]">
+                 xl:leading-[56.1px]">
                     Magic Mushrooms
                 </div>
                 <CustomButton style={"hidden md:w-[250px] hoverAnimation h-[60px]  rounded-[20px] border-2 " +

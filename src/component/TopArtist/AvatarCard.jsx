@@ -1,10 +1,13 @@
 import React from 'react';
 import avatar1 from "../../assets/avatar/Avatar 1.svg";
+import {useNavigate} from "react-router-dom";
 
 const AvatarCard = ({avatar,name,price,number}) => {
+    const navigate = useNavigate()
     return (
         <div className="flex gap-[20px] items-center p-[20px] bg-gray-dark rounded-[20px] relative
-                        xl:flex-col hoverAnimation">
+                        xl:flex-col hoverAnimation"
+        onClick={()=>navigate("/artist-page")}>
             <div className="z-10 w-[30px] h-[30px] bg-black rounded-[50%] absolute top-[13px] left-[13px]
                      flex items-center justify-center font-mono text-gray text-base">
                 {number}

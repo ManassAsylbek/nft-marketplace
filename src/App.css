@@ -62,7 +62,9 @@
     @apply font-sans  text-[16px] leading-[22.4px]
     xl:text-[22px]   xl:leading-[35px]
 }
-
+.textWallet {
+    @apply font-sans  text-[22px]   leading-[35px] text-white
+}
 
 .hoverAnimation {
     @apply transition ease-linear  scale-100 hover:scale-95 cursor-pointer
@@ -70,4 +72,7 @@
 
 .bgImage {
     background: linear-gradient(179deg, rgba(162.00005114078522, 89.00000989437103, 255, 0) 0%, rgb(162.00000554323196, 89.00000229477882, 255) 100%);
+}
+.marginCenter{
+    margin: 0 auto;
 }
