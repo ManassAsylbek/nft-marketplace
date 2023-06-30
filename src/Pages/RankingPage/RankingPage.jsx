@@ -49,19 +49,20 @@ const RankingPage = () => {
                     <div
                         className={`text font-bold cursor-pointer ${1 === choose ? "selectButton" : "unselectButton"}`}
                         onClick={() => setChoose(1)}>
-                        <div>1d</div>
-                        <div>Today</div>
+                        <div className="md:hidden">1d</div>
+                        <div className="hidden md:block">Today</div>
                     </div>
                     <div
                         className={`text font-bold cursor-pointer ${2 === choose ? "selectButton" : "unselectButton"}`}
                         onClick={() => setChoose(2)}>
-                        <div>7d</div>
-                        <div>This Week</div>
+                        <div className="md:hidden">7d</div>
+                        <div className="hidden md:block">This Week</div>
                     </div>
                     <div
                         className={`text font-bold cursor-pointer ${3 === choose ? "selectButton" : "unselectButton"}`}
                         onClick={() => setChoose(3)}>
-                        <div>This Month</div>
+                        <div className="md:hidden">30d</div>
+                        <div className="hidden md:block" >This Month</div>
                     </div>
                     <div
                         className={`text font-bold cursor-pointer ${4 === choose ? "selectButton" : "unselectButton"}`}
@@ -70,11 +71,15 @@ const RankingPage = () => {
                     </div>
                 </div>
                 <div className="grid gap-[20px]">
-                    <div className="h-[50px] md:h-[60px] xl:h-[84px] rounded-[20px] px-[20px] border border-gray
-                     text-gray flex items-center">
-                        <div className="w-[34px]">#</div>
-                        <div className="w-[181px]">Artist</div>
-                        <div className="">Volume</div>
+                    <div className="h-[50px] md:h-[60px] xl:h-[84px]  px-[10px] xl:h-[84px] rounded-[20px]
+                     md:px-[20px] border border-gray text-gray flex items-center gap-[12px]">
+                        <div className="w-[24px] text-center">#</div>
+                        <div className="w-[181px] md:w-[430px] xl:w-[460px]">Artist</div>
+                        <div className="font-sans hidden md:block w-[100px]  text-[16px] leading-[13.2px]
+                         text-[#00ac4f] xl:w-[160px]">Change</div>
+                        <div className="font-sans hidden xl:block text-[12px] leading-[13.2px] text-[#00ac4f]
+                         xl:w-[160px]">NFTs Sold</div>
+                        <div className="xl:w-[160px]">Volume</div>
                     </div>
                     <RankingCard price={"34.53 ETH"} avatar={avatar1} name={"Keepitreal"} number={1}/>
                     <RankingCard price={"34.53 ETH"} avatar={avatar2} name={"Keepitreal"} number={2}/>

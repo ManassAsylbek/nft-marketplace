@@ -26,18 +26,17 @@ const RankingCard = ({avatar,name,price,number}) => {
 
     return (
         <div className="h-[50px] md:h-[60px] xl:h-[84px] flex items-center bg-gray-dark rounded-[20px] px-[10px]
-                        md:px-[20px] xl:flex-col hoverAnimation gap-[12px]"
+                        md:px-[20px]  hoverAnimation gap-[12px]"
              onClick={()=>navigate("/artist-page")}>
             <div className="z-10 w-[24px] h-[24px]
-                     flex items-center justify-center font-mono text-gray text-[12px]">
+                     flex items-center justify-center font-mono text-gray text- [12px]">
                 {number}
             </div>
             <img className="w-[24px] xl:w-[60px]" src={avatar} alt=""/>
-            <h3 className="text-base font-sans w-[119px] leading-[22.4px]  font-bold">{name}</h3>
-            <div>
-                <span className="font-sans hidden text-[12px] leading-[13.2px] text-[#00ac4f]">-1.41%</span>
-                <span className="font-mono text-[12px] leading-[13.2px]">{price}</span>
-            </div>
+            <h3 className="text-base font-sans w-[119px] md:w-[390px] leading-[22.4px]  font-bold">{name}</h3>
+            <div className="font-sans hidden md:block w-[100px]  text-[16px] leading-[13.2px] text-[#00ac4f] xl:w-[160px]">-1.41%</div>
+            <div className="font-sans hidden xl:block text-[12px] leading-[13.2px] text-[#00ac4f] xl:w-[160px]">-1.41%</div>
+            <div className="font-mono text-[12px] leading-[13.2px] xl:w-[160px]">{price}</div>
         </div>
     );
 };
