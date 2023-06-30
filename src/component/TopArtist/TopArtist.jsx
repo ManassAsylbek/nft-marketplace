@@ -58,7 +58,7 @@ const TopArtist = () => {
                 <AvatarCard price={"34.53 ETH"} avatar={avatar20} name={"Keepitreal"} number={20}/>*/}
 
             </div>
-            <CustomButton style={"w-[315px] hoverAnimation md:hidden h-[60px]  rounded-[20px] border-2 " +
+            <CustomButton url={"/ranking"} style={"w-[315px] hoverAnimation md:hidden h-[60px]  rounded-[20px] border-2 " +
                 "border-purple bg-transparent flex justify-center items-center gap-x-[10px] "}>
                 <Rocket className="w-[22px] fill-purple"/> View Rankings</CustomButton>
         </div>

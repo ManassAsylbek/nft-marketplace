@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import img from "../../assets/createAccount/wallet.svg";
 import mask from "../../assets/icon/Metamask.svg";
 import WalletConnect from "../../assets/icon/WalletConnect.svg";
@@ -7,9 +7,19 @@ import Coinbase from "../../assets/icon/Coinbase.svg";
 import CustomButton from "../../component/button/button";
 
 const ConnectWallet = () => {
+
+    useEffect(() => {
+        const targetElement = document.getElementById('scroll');
+        if (targetElement) {
+            targetElement.scrollIntoView({behavior: 'smooth'});
+        }
+
+    }, []);
+
+
     return (
         <div className="bg-black grid md:grid-cols-2 justify-items-center md:justify-items-start
-         md:gap-[40px] xl:gap-[60px] self-stretch">
+         md:gap-[40px] xl:gap-[60px] self-stretch" id="scroll">
             <div className="object-cover  overflow-hidden flex justify-center items-center
               h-[232px] md:h-[615px]  xl:h-[691px]">
                 <img src={img} className="w-[100vw] md:h-[615px] md:w-[100vw] object-cover  xl:h-[691px]" alt=""/>

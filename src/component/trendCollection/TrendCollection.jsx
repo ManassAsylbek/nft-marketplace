@@ -9,9 +9,13 @@ import robot from '../../assets/collection/Primary Photo Placeholder (2).svg'
 import robot2 from '../../assets/collection/Secondary Photo Placeholder (4).svg'
 import robot3 from '../../assets/collection/Secondary Photo Placeholder (5).svg'
 import avatar from "../../assets/avatar/Avatar14.svg";
+import {useNavigate} from "react-router-dom";
 
 
 const TrendCollection = () => {
+
+    const navigate = useNavigate()
+
     return (
         <div className="container flex flex-col gap-[40px] xl:gap-[60px]">
             <div>
@@ -20,8 +24,8 @@ const TrendCollection = () => {
             </div>
             <div className=" flex gap-[30px]">
                 <div className=" flex flex-col gap-[15px]">
-                    <img src={animal} className="w-[330px] hoverAnimation" alt=""/>
-                    <div className="flex gap-[15px]">
+                    <img src={animal} className="w-[330px] hoverAnimation" onClick={()=>navigate("/nft-page")}/>
+                    <div className="flex gap-[15px] " onClick={()=>navigate("/nft-page")}>
                         <img src={animal2} className="hoverAnimation" alt=""/>
                         <img src={animal3} className="hoverAnimation" alt=""/>
                         <div className="w-[100px] hoverAnimation bg-purple rounded-[20px] flex justify-center items-center
@@ -34,8 +38,8 @@ const TrendCollection = () => {
                     </div>
                 </div>
                 <div className=" md:flex flex-col gap-[15px] hidden">
-                    <img src={grib} className="w-[330px] hoverAnimation" alt=""/>
-                    <div className="flex gap-[15px]">
+                    <img src={grib} className="w-[330px] hoverAnimation" onClick={()=>navigate("/nft-page")}/>
+                    <div className="flex gap-[15px]" onClick={()=>navigate("/nft-page")}>
                         <img src={grib2} className="hoverAnimation" alt=""/>
                         <img src={grib3} className="hoverAnimation" alt=""/>
                         <div className="w-[100px] hoverAnimation bg-purple rounded-[20px] flex justify-center items-center
@@ -48,8 +52,8 @@ const TrendCollection = () => {
                     </div>
                 </div>
                 <div className=" xl:flex flex-col gap-[15px] hidden">
-                    <img src={robot} className="w-[330px] hoverAnimation" alt=""/>
-                    <div className="flex gap-[15px]">
+                    <img src={robot} className="w-[330px] hoverAnimation" onClick={()=>navigate("/nft-page")}/>
+                    <div className="flex gap-[15px]" onClick={()=>navigate("/nft-page")}>
                         <img src={robot2} className="hoverAnimation" alt=""/>
                         <img src={robot3} className="hoverAnimation" alt=""/>
                         <div className="w-[100px] hoverAnimation bg-purple rounded-[20px] flex justify-center items-center
@@ -62,7 +66,6 @@ const TrendCollection = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

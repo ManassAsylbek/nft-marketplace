@@ -23,17 +23,19 @@ const DiscoverMore = () => {
                     <h3 className="secondTitle">Discover More Nfts</h3>
                     <p className="text">Explore new trending NFTs</p>
                 </div>
-                <CustomButton style={"hidden md:w-[250px] hoverAnimation h-[60px]  rounded-[20px] border-2 " +
+                <CustomButton url={"/marketplace"} style={"hidden md:w-[250px] hoverAnimation h-[60px]  rounded-[20px] border-2 " +
                     "border-purple bg-transparent md:flex justify-center items-center gap-x-[10px] "}>
                     <Eye className="w-[22px] fill-purple"/> See NFT</CustomButton>
             </div>
             <div className="grid gap-[20px] md:gap-[30px] md:grid-cols-2  xl:grid-cols-3 ">
                 <DiscoverCard/>
                 <DiscoverCard/>
-                <DiscoverCard/>
+                <div className="md:hidden xl:block">
+                    <DiscoverCard/>
+                </div>
             </div>
-            <CustomButton style={"w-[315px] hoverAnimation md:hidden h-[60px]  rounded-[20px] border-2 " +
-                "border-purple bg-transparent flex justify-center items-center gap-x-[10px] "}>
+            <CustomButton url={"/marketplace"} style={"w-[315px] hoverAnimation md:hidden h-[60px] rounded-[20px]" +
+                " border-2 border-purple bg-transparent flex justify-center items-center gap-x-[10px]"}>
                 <Eye className="w-[22px] fill-purple"/> See All</CustomButton>
         </div>
     );

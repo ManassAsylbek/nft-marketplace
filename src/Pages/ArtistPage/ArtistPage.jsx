@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import img from "../../assets/createAccount/wallet.svg";
 import avatar from "../../assets/avatar/Avatar123.svg";
 import CustomButton from "../../component/button/button";
@@ -13,10 +13,19 @@ import DiscoverCard from "../../component/DiscoverMoreNft/DiscoverCard";
 
 const ArtistPage = () => {
 
+    useEffect(() => {
+        const targetElement = document.getElementById('scroll');
+        if (targetElement) {
+            targetElement.scrollIntoView({behavior: 'smooth'});
+        }
+
+    }, []);
+
+
     const [choose, setChoose] = useState(1)
 
     return (
-        <div className="bg-black">
+        <div className="bg-black" id="scroll">
             <div className="object-cover  overflow-hidden flex justify-center items-center h-[280px]">
                 <img
                     src={"https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png"}

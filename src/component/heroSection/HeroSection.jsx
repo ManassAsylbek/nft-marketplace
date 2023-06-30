@@ -15,7 +15,7 @@ const HeroSection = () => {
                     NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT
                     artists.
                 </p>
-                <CustomButton style={"w-[315px] md:w-[224px] h-[60px] hoverAnimation rounded-[20px] bg-purple flex" +
+                <CustomButton url={"/create-account"} style={"w-[315px] md:w-[224px] h-[60px] hoverAnimation rounded-[20px] bg-purple flex" +
                     " justify-center items-center gap-x-[10px] "}>
                     <Rocket className="w-[22px] fill-white" /> Get Started</CustomButton>
                 <div className={"grid grid-cols-3 gap-[30px] pt-[20px] xl:pt-[30px]"}>

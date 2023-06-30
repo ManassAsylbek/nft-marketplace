@@ -4,6 +4,8 @@ import CreateAccount from "../Pages/CreateAccount/CreateAccount";
 import ConnectWallet from "../Pages/ConnectWallet/ConnectWallet";
 import ArtistPage from "../Pages/ArtistPage/ArtistPage";
 import NftPage from "../Pages/NftPage/NftPage";
+import MarketPlace from "../Pages/MarketPlace/MarketPlace";
+import RankingPage from "../Pages/RankingPage/RankingPage";
 
 
 
@@ -28,6 +30,16 @@ const pagesData = [
         path: "/nft-page",
         title: "NftPage",
         element: <NftPage/>
+    },
+    {
+        path: "/marketplace",
+        title: "MarketPlace",
+        element: <MarketPlace/>
+    },
+    {
+        path: "/ranking",
+        title: "RankingPage",
+        element: <RankingPage/>
     },
 ];
 

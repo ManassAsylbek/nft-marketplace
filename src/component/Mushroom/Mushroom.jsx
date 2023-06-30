@@ -22,11 +22,7 @@ const Mushroom = () => {
         }
     };
 
-   /* const reset = () => {
-        setTime([parseInt(hours), parseInt(minutes), parseInt(seconds)]);
-        setPaused(false);
-        setOver(false);
-    };*/
+
 
     React.useEffect(() => {
         const timerID = setInterval(() => tick(), 1000);
@@ -45,7 +41,7 @@ const Mushroom = () => {
                  xl:leading-[56.1px]">
                     Magic Mushrooms
                 </div>
-                <CustomButton style={"hidden md:w-[250px] hoverAnimation h-[60px]  rounded-[20px] border-2 " +
+                <CustomButton url={"/nft-page"} style={"hidden md:w-[250px] hoverAnimation h-[60px]  rounded-[20px] border-2 " +
                     "border-purple bg-white md:flex text-black justify-center items-center gap-x-[10px] "}>
                     <Eye className="w-[22px] fill-purple"/> See NFT</CustomButton>
             </div>
@@ -68,7 +64,7 @@ const Mushroom = () => {
                     </div>
                 </div>
             </div>
-            <CustomButton style={"w-[315px] hoverAnimation md:hidden h-[60px]  rounded-[20px] border-2 " +
+            <CustomButton url={"/nft-page"} style={"w-[315px] hoverAnimation md:hidden h-[60px]  rounded-[20px] border-2 " +
                 "border-purple bg-white text-black flex justify-center items-center gap-x-[10px]"}>
                 <Eye className="w-[22px] fill-purple"/> See NFT</CustomButton>
         </div>

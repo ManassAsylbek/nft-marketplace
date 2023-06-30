@@ -22,7 +22,7 @@
 
 
 .container {
-    @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]  text-white md:py-[80px];
+    @apply max-w-[345px] md:max-w-[760px] xl:max-w-[1110px] px-[15px] md:px-[30px] py-[40px]  text-white xl:py-[80px];
     margin: 0 auto;
 }
 
